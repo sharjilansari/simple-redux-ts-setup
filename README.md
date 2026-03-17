@@ -71,7 +71,7 @@ const initialState: CounterState = {
 #### What are reducers?
 A reducer in Redux is a pure function that takes the current state and an action as input and returns the new state.
 
-reducers is an object which will contain the functions/actions which you will perform on your variable and it will return you updated state of that variable. In this example we are creating a reducer which will increament, decrement and add any specifi amount of value to our counter.
+reducers is an object which will contain the functions/actions which you will perform on your variable. They receive the current state and action, and return a new state with the updated values. In this example we are creating a reducer which will increament, decrement and add any specifi amount of value to our counter.
 
 ```ts
 reducers: {
